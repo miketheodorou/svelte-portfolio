@@ -1,5 +1,9 @@
 <script>
 	import '../app.css';
+	import Sidebar from '@components/Sidebar.svelte';
 </script>
 
-<slot />
+<main class="flex h-full">
+	<Sidebar />
+	<slot />
+</main>
