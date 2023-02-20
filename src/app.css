@@ -64,3 +64,13 @@ h5,
 h6 {
 	overflow-wrap: break-word;
 }
+
+/* Custom Global Styles */
+
+html {
+	font-family: 'Open Sans', system-ui, sans-serif;
+}
+
+code {
+	font-family: 'Source Code Pro', system-ui, sans-serif;
+}
